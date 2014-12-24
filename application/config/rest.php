@@ -340,6 +340,17 @@ $config['rest_logs_table'] = 'logs';
 */
 $config['rest_enable_logging'] = FALSE;
 
+/*
+|--------------------------------------------------------------------------
+| REST API Access API Key Column Name
+|--------------------------------------------------------------------------
+|
+| The column name in your access table that stores the API key.
+|
+|	DEFAULT: 'key'
+|
+*/
+$config['rest_access_column'] = 'key';
 
 /*
 |--------------------------------------------------------------------------
